@@ -78,15 +78,16 @@
             display-name = "Nav";
         };
 
-        sym {
+        add {
             bindings = <
-  &none           &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &none
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &none                        &none      &kp PIPE         &kp TILDE        &kp AMPS        &kp DLLR
-                                                    &trans           &mo 3      &trans    &trans  &trans     &trans
+  &trans    &trans    &trans     &trans     &kp ESC                      &trans  &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &kp NUBS                     &trans  &kp RCTRL  &kp RSHFT  &kp LALT          &hmr RGUI SQT
+  &trans    &trans    &trans     &trans     &kp GRAVE                    &trans  &trans     &trans     &trans            &trans
+                                 &trans     &trans     &trans    &trans  &mo 3   &trans
             >;
 
-            display-name = "Symbols";
+            display-name = "Additional";
+            label = "Additional";
         };
 
         adj {
