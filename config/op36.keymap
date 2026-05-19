@@ -80,10 +80,10 @@
 
         add {
             bindings = <
-  &trans    &trans    &trans     &trans     &kp ESC                      &trans  &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &kp NUBS                     &trans  &kp RCTRL  &kp RSHFT  &kp LALT          &hmr RGUI SQT
-  &trans    &trans    &trans     &trans     &kp GRAVE                    &trans  &trans     &trans     &trans            &trans
-                                 &trans     &trans     &trans    &trans  &mo 3   &trans
+  &kp GRAVE  &trans    &trans     &trans     &kp ESC                    &trans  &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+  &kp LGUI   &kp LALT  &kp LSHFT  &kp LCTRL  &trans                     &trans  &kp RCTRL  &kp RSHFT  &kp LALT          &hmr RGUI SQT
+  &trans     &trans    &trans     &trans     &trans                     &trans  &trans     &trans     &trans            &kp BSLH
+                                  &trans     &trans   &trans    &trans  &mo 3   &trans
             >;
 
             display-name = "Additional";
